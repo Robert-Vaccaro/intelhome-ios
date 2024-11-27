@@ -22,8 +22,8 @@ class DeviceDetectionVC: BaseVC, AVCaptureVideoDataOutputSampleBufferDelegate {
     private let detectionInterval: TimeInterval = 0.1
     
     private let targetLabels: Set<String> = [
-        "TV Monitor", "microwave", "oven", "toaster", "refrigerator",
-        "cell phone", "laptop", "mouse", "remote", "keyboard"
+        "TV Monitor", "Microwave", "Oven", "Toaster", "Refrigerator",
+        "Cell Phone", "Laptop", "Mouse", "Remote", "Keyboard"
     ]
 
     // MARK: - Lifecycle
@@ -125,6 +125,8 @@ class DeviceDetectionVC: BaseVC, AVCaptureVideoDataOutputSampleBufferDelegate {
                 var identifier = topLabel.identifier
                 if identifier == "tvmonitor" {
                     identifier = "TV Monitor"
+                } else {
+                    identifier = identifier.capitalized
                 }
                 currentIdentifiers.insert(identifier)
 
@@ -141,9 +143,6 @@ class DeviceDetectionVC: BaseVC, AVCaptureVideoDataOutputSampleBufferDelegate {
                             labelBackground.frame = CGRect(x: 0, y: 0, width: smoothedBox.width, height: 20)
                         }
                     } else {
-                        if !(identifier == "TV Monitor") {
-                            identifier = identifier.capitalized
-                        }
                         // Create and add a new bounding box
                         let boxView = self.createBoundingBoxView(frame: smoothedBox, label: identifier)
                         self.boundingBoxViews[identifier] = boxView

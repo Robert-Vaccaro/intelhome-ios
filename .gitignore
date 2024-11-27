@@ -1,3 +1,4 @@
 .DS_Store
 DeviceDetector/YOLOv3.mlmodel
 YOLOv3.mlmodel
+*.xcuserstate
