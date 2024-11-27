@@ -18,7 +18,6 @@
 		8E416F142CF05D4A00C8F908 /* EnterEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F132CF05D4A00C8F908 /* EnterEmailVC.swift */; };
 		8E416F162CF05D6F00C8F908 /* VerifyEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F152CF05D6F00C8F908 /* VerifyEmailVC.swift */; };
 		8E416F182CF0640000C8F908 /* EnterNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F172CF0640000C8F908 /* EnterNameVC.swift */; };
-		8E416F1D2CF071EE00C8F908 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F1C2CF071EE00C8F908 /* GetStarted.swift */; };
 		8E416F202CF07DED00C8F908 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F1F2CF07DED00C8F908 /* User.swift */; };
 		8E416F232CF07E6500C8F908 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F222CF07E6500C8F908 /* Tokens.swift */; };
 		8E416F252CF07E8E00C8F908 /* UserTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416F242CF07E8E00C8F908 /* UserTokens.swift */; };
@@ -65,7 +64,6 @@
 		8E416F132CF05D4A00C8F908 /* EnterEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailVC.swift; sourceTree = "<group>"; };
 		8E416F152CF05D6F00C8F908 /* VerifyEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailVC.swift; sourceTree = "<group>"; };
 		8E416F172CF0640000C8F908 /* EnterNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameVC.swift; sourceTree = "<group>"; };
-		8E416F1C2CF071EE00C8F908 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
 		8E416F1F2CF07DED00C8F908 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8E416F222CF07E6500C8F908 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
 		8E416F242CF07E8E00C8F908 /* UserTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTokens.swift; sourceTree = "<group>"; };
@@ -155,14 +153,6 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
-		8E416F212CF07DF700C8F908 /* Routes */ = {
-			isa = PBXGroup;
-			children = (
-				8E416F1C2CF071EE00C8F908 /* GetStarted.swift */,
-			);
-			path = Routes;
-			sourceTree = "<group>";
-		};
 		8E96CABC2CEC25E600EEDBBA = {
 			isa = PBXGroup;
 			children = (
@@ -227,7 +217,6 @@
 		8EFE054C2CEE88150085FE96 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				8E416F212CF07DF700C8F908 /* Routes */,
 				8E416F1E2CF07DE400C8F908 /* Structs */,
 			);
 			path = Server;
@@ -430,7 +419,6 @@
 				8E1A4C982CF577B70075220E /* Notifications.swift in Sources */,
 				8E416F202CF07DED00C8F908 /* User.swift in Sources */,
 				8EFE056C2CEECE0D0085FE96 /* MainTabBarController.swift in Sources */,
-				8E416F1D2CF071EE00C8F908 /* GetStarted.swift in Sources */,
 				8E96CAC92CEC25E600EEDBBA /* AppDelegate.swift in Sources */,
 				8EFE05572CEE8BB50085FE96 /* Colors.swift in Sources */,
 				8EB1B8FA2CF17B1400D46D3C /* Location.swift in Sources */,
